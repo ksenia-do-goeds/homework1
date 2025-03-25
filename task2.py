@@ -1,6 +1,6 @@
 num = input("Введите число: ")
 
-if num.isdigit()
+if num.isdigit():
   num = int(num)
   if num%2 == 0:
     print(f"Число {num} является четным.")
